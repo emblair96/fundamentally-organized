@@ -63,7 +63,6 @@ app.delete("/api/notes/:id", function(req, res) {
     console.log(notesArr)
     const found = notesArr.some(note => note.id === identifier);
 
-    if (found) {
       notesArr.forEach(note => {
         note.id === identifier
         ? notesArr.splice(notesArr.indexOf(note), 1)
@@ -75,7 +74,7 @@ app.delete("/api/notes/:id", function(req, res) {
         ? console.log(err)
         : console.log("Note successfully delete from file.")
       });
-    }
+
     
   });
 
