@@ -8,8 +8,11 @@
     "start": "node server.js",
     "watch": "nodemon server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "engines": {
+    "node": "14.15.0"
+  },
+  "author": "Emily Blair",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
     "uuid": "^8.3.2"
