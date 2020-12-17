@@ -3,8 +3,6 @@
 ## Description
 An simple, intuitive note-taking app for helping you stay organized.  No fluff, no wild features - just the basics and sometimes, that's all you need.  
 
-![placeholder for shields io]()
-
 ## Technologies
 * HTML
 * CSS
