@@ -4,7 +4,8 @@ const fs = require("fs");
 const uuid = require("uuid");
 
 const app = express();
-const PORT = 3000;
+
+var PORT = process.env.PORT || 3001;
 
 // Middleware
 app.use(express.static(__dirname + '/public'));
